@@ -20,7 +20,7 @@
                 </label>
                 <label class="form__label">
                     Choose Genre
-                    <select class="form__select">
+                    <select class="form__select" name="genre">
                         <option class="form__option" value="fantasy">Fantasy</option>
                         <option class="form__option" value="sci-fi">Sci-Fi</option>
                         <option class="form__option" value="mystery">Mystery</option>
