@@ -22,5 +22,5 @@ Route::get('/', function () {
 Route::get('/user', [UserController::class, 'index'])->name('showUsers');
 Route::get('/user/{id}', [UserController::class, 'get'])->name('getUser');
 Route::post('/store-user', [UserController::class, 'store'])->name('storeUser');
-Route::get('/resume', [PdfGeneratorController::class, 'index'])->name('createResume');
+Route::get('/resume/{id}', [PdfGeneratorController::class, 'index'])->name('createResume');
 
