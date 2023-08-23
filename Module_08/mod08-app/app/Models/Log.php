@@ -10,4 +10,14 @@ class Log extends Model
     public $timestamps = false;
 
     use HasFactory;
+
+    protected $fillable = [
+        'id',
+        'time',
+        'duration',
+        'ip',
+        'url',
+        'method',
+        'input',
+    ];
 }
