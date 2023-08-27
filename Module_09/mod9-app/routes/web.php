@@ -37,5 +37,5 @@ Route::get('news/{id}/hide', function ($id) {
     NewsHidden::dispatch($news);
 
     return 'News hidden';
-})
+});
 
