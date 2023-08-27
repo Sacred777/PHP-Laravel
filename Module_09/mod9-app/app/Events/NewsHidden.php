@@ -15,7 +15,7 @@ class NewsHidden
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
-    private News $news;
+    public News $news;
 
     /**
      * Create a new event instance.
